@@ -1,6 +1,6 @@
 str = input("Enter a string : ")
 
 for i in str:
-    if(i == 'a'):
+    if(i == 'a' | i == 'b'):
         pass
     else: print(i)
