@@ -1,3 +1,3 @@
-lis = ["hello","world","iam"]
-lis = list(map(int,lis))
+lis = ["h","w","i"]
+lis = map(int,lis)
 print(lis)
