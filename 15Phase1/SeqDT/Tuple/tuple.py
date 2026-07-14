@@ -1,5 +1,3 @@
-
-
 colors = ("red", "green", "blue")
 days = ("Mon", "Tue", "Wed", "Thu", "Fri")
 coordinate = (12.5, 80.2)
