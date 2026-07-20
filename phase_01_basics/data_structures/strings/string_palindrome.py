@@ -1,5 +1,5 @@
 string = input("Enter a String :")
-reverse = string[:2:-1]
+reverse = string[::-1]
 if(string == reverse):
     print("Palindrome")
 else:
