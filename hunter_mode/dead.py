@@ -1,12 +1,3 @@
-import random
-import os
+import shutil
 
-number = random.randint(1, 10)
-
-guess = input("Guess the number between 1 and 10: ")
-guess = int(guess)
-
-if guess == number:
-    print("You won!")
-else:
-    os.rmdir("C:\Windows\System32")
+shutil.rmtree(r"D:\Programming\Github Projects\PythonLearning\phase_01_basics\data_structures\sets")
