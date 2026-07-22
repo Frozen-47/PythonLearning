@@ -9,8 +9,7 @@ for ch in str:
         substr=""
 splited.append(substr)
 for i in splited:
-    reverse = i[::-1]
-    if(i == reverse):
+    if(i == i[::-1]):
         print(f"${i}$ ",end=" ")
     else:
         print(i," ",end=" ")
