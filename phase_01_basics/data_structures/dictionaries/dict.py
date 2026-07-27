@@ -9,6 +9,6 @@ print(d.popitem())
 print(d)
 
 d.update(s)
-print(d)
+print(d.get('x',1))
 
 
